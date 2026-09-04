@@ -1,5 +1,7 @@
 # 🦴 SAHZU OS Transcriptomics 🧬
+
 **Scope of this repository** 
+
 This repository includes custom and adapted analysis code for the manuscript entitled "Tumour persistence programmes and immune remodelling characterise osteosarcoma chemotherapy response". The areas covered include RNA-sequencing data preprocessing, analysis, and generating figure panels. Analyses performed with standard workflows of published tools (e.g., CellPhoneDB and PySCENIC) are not included. These were run according to the respective official documentation with the parameters and software versions described in the Methods section of the manuscript. This repository is intended for editor and reviewer use during peer review process and is to be revised pending review outcomes. 
 1. **Data pre-processing and analyses** - Contains code for scRNA-seq, bulk RNA-seq and spatial transcriptomic data preprocessing and analysis. 
   - **scRNA**: Contains code for data pre-processing, quality control, cell type derivation and annotation, and downstream analyses. 
@@ -8,6 +10,7 @@ This repository includes custom and adapted analysis code for the manuscript ent
 2. **Plot generation** - Contains code for generating both main and supplementary figure panels in the manuscript, if not already provided in the analytic pipeline.
 
 ## 📊 Data Availability
+
 All sequencing data have been deposited in the China National Center for Bioinformation Genome Sequence Archive for Human (https://ngdc.cncb.ac.cn/gsa-human/) with the below accession numbers. 
   - **Bulk**: HRA009869 (GSA-Human)
   - **scRNA**: HRA009821 (GSA-Human)
